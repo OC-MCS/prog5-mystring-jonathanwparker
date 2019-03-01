@@ -1,3 +1,12 @@
+/*
+===================================
+Programming II
+Assignment #5 - MyString Class
+Jonathan Parker
+2/19/2019
+===================================
+*/
+
 
 #include "MyString.h";
 #include <cstring>
@@ -6,6 +15,12 @@
 using namespace std;
 int main()
 {
+	/* Variable Declarations
+	s1 = first string with default constructor
+	s2 = second string with string input constructor
+	s3 = third string with copy constructor
+	s4 = fourth string with default constructor
+	*/
 	MyString s1;
 	MyString s2("Bob");
 	MyString s3(s2);
